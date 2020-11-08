@@ -1,4 +1,4 @@
-#Introduction
+# Introduction
 
 This example shows how to generate a make install target to install files
 and binaries on your system. This is based on the previous shared library example.
@@ -126,11 +126,6 @@ Install the project...
 -- Installing: C:/Program Files (x86)/cmake_examples_install/include/installing
 -- Installing: C:/Program Files (x86)/cmake_examples_install/include/installing/Hello.h
 -- Installing: C:/Program Files (x86)/cmake_examples_install/etc/cmake-examples.conf
-
-$ cat install_manifest.txt
-/usr/local/bin/cmake_examples_inst_bin
-/usr/local/lib/libcmake_examples_inst.so
-/usr/local/etc/cmake-examples.conf
 
 λ cat install_manifest.txt
 C:/Program Files (x86)/cmake_examples_install/bin/cmake_examples_inst_bin.exe
